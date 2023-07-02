@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body .login2 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://images.pexels.com/photos/376533/pexels-photo-376533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height: 100vh;
+    display: flex;
+}
+
+body .lContainer13 {
+    display: block;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    border-style: outset;
+    height: 490px;
+    margin-top: 5%;
+    margin-left: 24%;
+    background-color: #443355;
+}
+
+.lInput7 {
+    margin-top: 20px;
+    height: 37px;
+    padding: 10px;
+    width: 300px;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-color: black;
+    border-width: 3px;
+}
+
+.lButton99 {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 12px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.lButton99:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+}
+.lButton99:active {
+  background-color: #0071c28c;
+  list-style: none;
+    transform: translateY(4px);
+  }
+
+.sp22 {
+    font-size: 32px;
+    color: #FFD700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 90px;
+}
+
+.logol3 {
+    
+    height: 100px;
+    width: 100px;
+}
+
+#oldpass {
+    color: red;
+    text-align: center;
+}
+
+.lButton300 {
+    background-color: #443355;
+    font-size: 20px;
+    border-style: none;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.lButton300:hover {
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+
+.lContainer13 img{
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    margin-right: 440px;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+
+#iconsss {
+    cursor: pointer;
+    padding-bottom: 15px;
+    font-size: 14px;
+    color: white;
+    margin-left: 35px;
+ }
+
+ #profi {
+    color: red;
+    font-size: 12px;
+    margin-left: 18px;
+ }

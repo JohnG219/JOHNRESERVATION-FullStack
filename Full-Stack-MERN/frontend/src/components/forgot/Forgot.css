@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body .regBody2 {
+  display: flex;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/1723637/pexels-photo-1723637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.login1 {
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 10%;
+  margin-left: 30%;
+  height: 400px;
+  background-color: #fff;
+  width: 40%;
+  border-style: groove;
+  border-color: #FFD700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #443355;
+  background-image: url("./images/logo.png");
+  background-size: 100px;
+  background-repeat: no-repeat;
+    
+}
+
+.sp {
+  margin-top: 25px;
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lButton97 {
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+.lButton97:active {
+  background-color: #0071c28c;
+  list-style: none;
+  transform: translateY(4px);
+}
+
+.lButton97:disabled{
+  background-color: #0071c28c;
+  cursor: not-allowed;
+}
